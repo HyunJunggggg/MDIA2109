@@ -1,0 +1,22 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff6e0;
+}
+/* Component style */
+.section__content {
+    width: 20em;
+    height: 40em;
+    background-color: white;
+}
+/* Utility style */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

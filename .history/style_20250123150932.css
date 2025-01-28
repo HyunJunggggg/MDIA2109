@@ -1,0 +1,35 @@
+/* Reset */
+body {
+    background-color: blanchedalmond;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+a {
+    text-decoration: none;
+}
+
+/* Component style */
+.container {
+    margin-bottom: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0.75em;
+}
+
+#rats-ass{
+  border-color: red;
+}
+/* Utility style */

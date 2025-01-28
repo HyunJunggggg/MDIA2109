@@ -1,0 +1,22 @@
+/* Reset */
+body {
+    margin: 0;
+}
+ul,
+ol,
+dl {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* Component style */
+
+/* Utility style */

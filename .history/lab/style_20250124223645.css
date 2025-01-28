@@ -1,0 +1,36 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff6e0;
+}
+/* Component style */
+.header__container {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.section__content {
+    width: 40em;
+    height: 30em;
+    background-color: white;
+    border-radius: 20px;
+}
+/* Utility style */
+.container__display {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+h1,
+p {
+    text-align: center;
+    margin-top: 20px;
+}

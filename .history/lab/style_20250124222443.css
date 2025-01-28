@@ -1,0 +1,18 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff6e0;
+}
+/* Component style */
+.section__content{
+    width: 4rem;
+    height: 8rem ;
+    background-color: white;
+    display:flex;
+}
+/* Utility style */

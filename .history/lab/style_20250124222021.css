@@ -1,0 +1,11 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ead2;
+}
+/* Component style */

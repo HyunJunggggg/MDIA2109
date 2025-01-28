@@ -1,0 +1,16 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Basic */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff6e0;
+}
+/* Component style */
+.header__title{
+    width: 6rem;
+    h
+}
+/* Utility style */
