@@ -1,0 +1,30 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 20px;
+
+  &:last-child {
+      /* .container + .container
+    if container directly next to container
+    it will apply. sibling selector
+   it can use for .container:last-child */
+    margin-top: 20px;
+  }
+}
+
+.container__header{
+  color: #0969da;
+  background-color: #ccc8;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.container__content{
+  padding: 10px;
+  
+}

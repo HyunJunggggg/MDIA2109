@@ -1,0 +1,32 @@
+.container {
+    border-color:  red;
+    padding: 10px;
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+
+}
+
+.containercontents-purple {
+    background-color:  purple;
+    margin-bottom: 10px;
+    height: 100px;
+    @media (min-width: 768rem) {
+        width: 30%;
+    }
+}
+
+.containercontents-mauve {
+    height: 100px;
+    @media (min-width: 768px) {
+        width: 68%;
+    }
+}
+
+.containercontents-mauve,
+.containerfooter {
+    background-color:  palevioletred;
+    margin-bottom: 10px;
+
+}

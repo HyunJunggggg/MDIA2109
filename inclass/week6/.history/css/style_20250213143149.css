@@ -1,0 +1,23 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  border: 1px solid grey;
+  color: #333;
+  margin-bottom: 20px;
+  & + .container {
+    mar
+  }
+}
+
+.container + .container {
+  /* if container directly next to container
+    it will apply. sibling selector
+   it can use for .container:last-child */
+  margin-top: 20px;
+}
+
+.container:last-child{
+  margin-bottom: 0;
+}

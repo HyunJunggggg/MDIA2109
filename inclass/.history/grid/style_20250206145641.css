@@ -1,0 +1,22 @@
+.container {
+    border-color:  red;
+    padding: 10px;
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+}
+
+.containercontents-purple {
+    background-color:  purple;
+}
+
+.containercontents-mauve {
+    height: 100px;
+
+}
+
+.containercontents-mauve,
+.containerfooter {
+    background-color:  palevioletred;
+}

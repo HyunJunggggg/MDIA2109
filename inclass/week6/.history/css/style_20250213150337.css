@@ -1,0 +1,43 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 20px;
+
+  &.container--emphasize{
+    box-shadow: 2px 8px 25px ;
+  }
+
+  &:last-child {
+      /* .container + .container
+    if container directly next to container
+    it will apply. sibling selector
+   it can use for .container:last-child */
+    margin-top: 20px;
+  }
+}
+
+.container__header{
+  color: #0969da;
+  background-color: #eee;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.container__content{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+
+  &.container__content--with-margin{
+    padding: 10px 0;
+    margin:  0 10px;
+  }
+
+  &:last-child {
+  margin-top: 20px;
+}
+}

@@ -1,0 +1,42 @@
+.bigContainer1{
+  border: 1px soild red;
+  padding: 10px;
+}
+
+
+.header { 
+  @media (mi) {
+    
+  }
+  border: 1px solid cornflowerblue;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+.contain2 { 
+  border: 1px solid purple;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+}
+
+
+.contain3 { 
+  border: 1px solid palevioletred;
+  background-color: blueviolet;
+  margin-bottom: 10px;
+}
+
+
+.contain4{ 
+  border: 1px solid palevioletred;
+  background-color: blueviolet;
+  margin-bottom: 10px;
+}
+
+
+.footer{ 
+  border: 1px solid palevioletred;
+  background-color: blue
+  margin-bottom: 10px;
+}
+

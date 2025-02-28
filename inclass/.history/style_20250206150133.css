@@ -1,0 +1,33 @@
+.container {
+    border: 1px solid red;
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns:  repeat(3,auto);
+        grid-template-row:  repeat(2,auto);
+        
+    }
+
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.containercontents-purple {
+    background-color:  purple;
+    margin-bottom: 10px;
+}
+
+.containercontents-mauve {
+    height: 100px;
+
+}
+
+.containercontents-mauve,
+.containerfooter {
+    background-color:  palevioletred;
+}

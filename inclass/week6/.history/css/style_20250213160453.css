@@ -1,0 +1,118 @@
+html,
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content{
+  margin: 0;
+}
+
+.layout {
+  display: grid;
+  gap: 20px;
+
+  @media screen and(min-width: 768px){
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);  
+  }
+}
+
+.layout__top{
+    @media screen and (min-width: 768px){
+     grid-column-start: span 3;
+   }
+}
+
+.layout__primary {
+  @media screen and (min-width: 768px){
+    grid-column-start: span 2;
+  }
+}
+
+.layout__sidebar{
+  @media screen and (min-width: 768px){
+    grid-column-start: 3;
+  }
+}
+
+
+.page--header{
+  background: #eee;
+  border-bottom: 1px solid grey;
+  padding:  10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header--link{
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 1;
+}
+
+.sub--nav{
+  border-bottom: 1px solid #333;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+
+.container{
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 20px;
+
+  &.container--emphasize{
+    box-shadow: 2px 8px 25px -10px rgb(0,0,0,1);
+  }
+
+  &:last-child {
+      /* .container + .container
+    if container directly next to container
+    it will apply. sibling selector
+   it can use for .container:last-child */
+    margin-top: 20px;
+  }
+}
+
+.container__header{
+  color: #0969da;
+  background-color: #eee;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.container__content{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+
+  &.container__content--with-margin{
+    padding: 10px 0;
+    margin:  0 10px;
+  }
+
+  &:last-child {
+  margin-top: 20px;
+}
+}
+
+
+/* Utilities */
+
+.u-margin-bottom-10{
+  margin-bottom: 0;
+}
+
+.u-hidden-below-tablet{
+  display: none;
+
+  @media screen and (min-width: 768px){
+     display:inline-block;
+  }
+}

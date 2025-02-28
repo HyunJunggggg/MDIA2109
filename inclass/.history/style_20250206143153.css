@@ -1,0 +1,22 @@
+.bigContainer1{
+  border: 1px soild red;
+  padding: 10px;
+}
+
+
+.contain1 { 
+  border: 1px solid cornflowerblue;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+.contain2 { 
+  border: 1px solid purple;
+  background-color: cadetblue;
+}
+
+
+.contain3 { 
+  border: 1px solid palevioletred;
+  background-color: blueviolet;
+}

@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid red;
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+
+    @media screen and (min-width: 768px) {
+        
+    }
+
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+}
+
+.containercontents-purple {
+    background-color:  purple;
+}
+
+.containercontents-mauve {
+    height: 100px;
+
+}
+
+.containercontents-mauve,
+.containerfooter {
+    background-color:  palevioletred;
+}

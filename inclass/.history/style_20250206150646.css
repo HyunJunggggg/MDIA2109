@@ -1,0 +1,40 @@
+.container {
+    border: 1px solid red;
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(3,auto);
+        grid-template-row:  repeat(3,auto);
+    }
+
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        grid-column-start: 1;
+        grid
+    }
+}
+
+.containercontents-purple {
+    background-color:  purple;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.containercontents-mauve {
+    background-color: moccasin;
+    margin-bottom: 10px;
+    height: 100px;
+
+}
+
+.container__footer {
+    background-color:  palevioletred;
+    margin-bottom: 10px;
+    height: 100px;
+}

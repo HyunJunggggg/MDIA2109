@@ -1,0 +1,56 @@
+container,
+.containerheader,
+.containercontents,
+.containercontents-purple,
+.containercontents-mauve {
+    border-width: 0.5px;
+    border-style: solid;
+    color: white;
+}
+
+.containercontents {
+    @media (min-width: 35rem) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+}
+
+.container {
+    border-color:  red;
+    padding: 10px;
+}
+
+.containerheader {
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+
+}
+
+.containercontents-purple {
+    background-color:  purple;
+    margin-bottom: 10px;
+    height: 100px;
+    @media (min-width: 768rem) {
+        width: 30%;
+    }
+}
+
+.containercontents-mauve {
+    height: 100px;
+    @media (min-width: 768px) {
+        width: 68%;
+    }
+}
+
+.containercontents-mauve,
+.containerfooter {
+    background-color:  palevioletred;
+    margin-bottom: 10px;
+
+}
+﻿
+Pat
+poyypatcha

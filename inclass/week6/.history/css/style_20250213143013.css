@@ -1,0 +1,13 @@
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  border: 1px solid grey;
+  color: #333;
+}
+
+.container + .container {
+  /* if container next to container, it will apply */
+  margin-top: 20px;
+}
