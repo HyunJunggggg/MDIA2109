@@ -1,0 +1,24 @@
+/* api style */
+.api {
+  background-color: #fff3b0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.api__header,
+.api__contents {
+  text-align: center;
+  border: 3px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.api__header-button {
+  border: 0;
+  border-radius: 5px;
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
